@@ -1,29 +1,29 @@
-2024-08-02 21:43:08,175 INFO o.s.b.StartupInfoLogger [main] Starting SbrDemoApplication using Java 21.0.2 with PID 14888 (C:\Youtube\dailycodework\sbr-server\target\classes started by nagar in C:\Youtube\dailycodework\sbr-server)
-2024-08-02 21:43:08,183 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
-2024-08-02 21:43:08,185 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-08-02 21:43:08,831 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-02 21:43:08,903 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
-2024-08-02 21:43:09,397 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9192 (http)
-2024-08-02 21:43:09,404 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9192"]
-2024-08-02 21:43:09,406 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2024-08-02 21:43:09,407 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
-2024-08-02 21:43:09,474 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2024-08-02 21:43:09,476 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1239 ms
-2024-08-02 21:43:09,677 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-08-02 21:43:09,741 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
-2024-08-02 21:43:09,745 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
-2024-08-02 21:43:09,901 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
-2024-08-02 21:43:10,019 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-02 21:43:10,035 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-08-02 21:43:10,475 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f581211
-2024-08-02 21:43:10,477 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-08-02 21:43:10,735 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
-2024-08-02 21:43:11,199 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-08-02 21:43:11,234 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-02 21:43:11,514 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-08-02 21:43:11,813 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9192"]
-2024-08-02 21:43:11,835 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9192 (http) with context path ''
-2024-08-02 21:43:11,843 INFO o.s.b.StartupInfoLogger [main] Started SbrDemoApplication in 4.244 seconds (process running for 5.333)
-2024-08-02 21:43:39,822 INFO o.a.j.l.DirectJDKLog [http-nio-9192-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-08-02 21:43:39,823 INFO o.s.w.s.FrameworkServlet [http-nio-9192-exec-1] Initializing Servlet 'dispatcherServlet'
-2024-08-02 21:43:39,824 INFO o.s.w.s.FrameworkServlet [http-nio-9192-exec-1] Completed initialization in 1 ms
+2024-08-02 22:23:40,242 INFO o.s.b.StartupInfoLogger [main] Starting SbrDemoApplication using Java 17.0.5 with PID 7260 (C:\YoutubeRework\sbr-backend\target\classes started by nagar in C:\YoutubeRework\sbr-backend)
+2024-08-02 22:23:40,251 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.1.1, Spring v6.0.10
+2024-08-02 22:23:40,254 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-02 22:23:40,856 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 22:23:40,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2024-08-02 22:23:41,523 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9193 (http)
+2024-08-02 22:23:41,533 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9193"]
+2024-08-02 22:23:41,537 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-08-02 22:23:41,538 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-08-02 22:23:41,634 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-08-02 22:23:41,637 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1339 ms
+2024-08-02 22:23:41,780 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 22:23:41,828 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2024-08-02 22:23:41,830 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-08-02 22:23:41,961 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2024-08-02 22:23:42,094 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 22:23:42,121 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-08-02 22:23:42,425 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@545604a9
+2024-08-02 22:23:42,427 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-08-02 22:23:42,699 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2024-08-02 22:23:43,316 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-02 22:23:43,380 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 22:23:43,729 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 22:23:44,027 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9193"]
+2024-08-02 22:23:44,049 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9193 (http) with context path ''
+2024-08-02 22:23:44,058 INFO o.s.b.StartupInfoLogger [main] Started SbrDemoApplication in 4.335 seconds (process running for 5.078)
+2024-08-02 22:23:51,463 INFO o.a.j.l.DirectJDKLog [http-nio-9193-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 22:23:51,463 INFO o.s.w.s.FrameworkServlet [http-nio-9193-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-02 22:23:51,464 INFO o.s.w.s.FrameworkServlet [http-nio-9193-exec-1] Completed initialization in 1 ms

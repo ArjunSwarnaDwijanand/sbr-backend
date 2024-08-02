@@ -1,0 +1,1 @@
+sonar:sonar -Dsonar.login=squ_afed2f1586916d632d174ba9219f6564ca42357d
